@@ -22,6 +22,8 @@ Route::get('/home', [PageController::class, 'home']);
 Route::get('/news', [PageController::class, 'news']);
 Route::get('/needed', [PageController::class, 'needed']);
 
+
 Auth::routes();
+
 
 Route::get('/profile', [HomeController::class, 'index'])->name('profile');
