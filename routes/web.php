@@ -21,6 +21,7 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/home', [PageController::class, 'home'])->name('home');
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/needed', [PageController::class, 'needed'])->name('needed');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 Auth::routes();
 

@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('school.needed');
     }
+
+    public function contact()
+    {
+        return view('school.contact');
+    }
 }

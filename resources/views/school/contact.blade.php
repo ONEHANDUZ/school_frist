@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title','School - NEWS')
+@section('title', 'School - CONTACT US')
 
 @section('content')
 
