@@ -3,26 +3,32 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Slide;
 
 class PageController extends Controller
 {
+    
     public function home()
     {
-        return view('school.home');
+        $slides = Slide::all();
+        return view('school.home',compact('slides'));
     }
 
     public function news()
     {
-        return view('school.news');
+        $slides = Slide::all();
+        return view('school.news',compact('slides'));
     }
 
     public function needed()
     {
-        return view('school.needed');
+        $slides = Slide::all();
+        return view('school.needed',compact('slides'));
     }
 
     public function contact()
     {
-        return view('school.contact');
+        $slides = Slide::all();
+        return view('school.contact',compact('slides'));
     }
 }
