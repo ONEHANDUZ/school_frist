@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\NewList;
 use Illuminate\Http\Request;
 use App\Models\Slide;
 
@@ -17,7 +18,8 @@ class PageController extends Controller
     public function news()
     {
         $slides = Slide::all();
-        return view('school.news',compact('slides'));
+        $lists = NewList::orderByDesc('updated_at')->paginate(10);
+        return view('school.news',compact('slides','lists'));
     }
 
     public function needed()
