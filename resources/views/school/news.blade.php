@@ -14,7 +14,7 @@
           </p>
           </div>
         @foreach ($lists as $list)
-        <div class="row" data-aos="fade-up">
+        <div class="row p-0" data-aos="fade-up">
           <div class="col-md-5">
             <img src="{{asset($list->img)}}" class="img-fluid" alt="">
           </div>

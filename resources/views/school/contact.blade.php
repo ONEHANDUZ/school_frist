@@ -10,7 +10,9 @@
       <div class="container">
         <div class="section-title">
           <h2>Contact us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Fill form
+          </p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -18,7 +20,7 @@
             <img src="{{asset('assets/img/features-1.svg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-4">
-            <h3>Formani to'ldiring va "Yubotish" tugmasini bosing</h3>
+            <h3>Fill form and click "Submit"</h3>
             <p class="fst-italic">
               <form method="POST" action="{{route('admin.store')}}">
                 @csrf

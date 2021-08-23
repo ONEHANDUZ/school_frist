@@ -140,7 +140,9 @@
 
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>About School</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>
+              This site of School
+            </p>
             <div class="social-links mt-3">
               <a href="https://t.me/onehanduz" class="telegram"><i class="bx bxl-telegram"></i></a>
               <a href="https://github.com/onehanduz" class="github"><i class="bx bxl-github"></i></a>
