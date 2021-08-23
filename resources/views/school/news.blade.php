@@ -8,9 +8,11 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Yangiliklar</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+          <h2>News</h2>
+          <p>
+            This page News
+          </p>
+          </div>
         @foreach ($lists as $list)
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
