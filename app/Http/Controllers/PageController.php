@@ -33,4 +33,9 @@ class PageController extends Controller
         $slides = Slide::all();
         return view('school.contact',compact('slides'));
     }
+    public function profile()
+    {
+        $slides = Slide::all();
+        return view('school.profile',compact('slides'));
+    }
 }

@@ -48,6 +48,23 @@
           <li><a href="{{route('news')}}">News</a></li>
           <li><a href="{{route('needed')}}">Needed</a></li>
           <li><a href="{{route('contact')}}">Contact</a></li>
+          @guest
+                            @if (Route::has('login'))
+                                <li>
+                                    <a href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
+                            @endif
+
+                            @if (Route::has('register'))
+                                <li>
+                                    <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li>
+                              <a href="{{ route('profile') }}">{{ __('Profile') }}</a>
+                            </li>
+                        @endguest
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
