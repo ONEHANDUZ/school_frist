@@ -31,4 +31,4 @@ Auth::routes();
 
 Route::get('/profile', [HomeController::class, 'index'])->name('profile');
 
-Route::resource('admin', SchoolController::class);
+Route::resource('admin', SchoolController::class)->middleware('admin');
