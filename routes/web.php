@@ -29,6 +29,5 @@ Route::get('/download', [DownloadController::class, 'index'])->name('download');
 
 Auth::routes();
 
-Route::get('/profile', [PageController::class, 'profile'])->name('profile');
-
+Route::get('/profile', [PageController::class, 'profile'])->name('profile')->middleware('auth');
 Route::resource('admin', SchoolController::class)->middleware('admin');
