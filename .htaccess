@@ -1,2 +1,2 @@
-RewriteEngine On
-RewriteRule public/
+RewriteEngine on
+RewriteRule /public/
