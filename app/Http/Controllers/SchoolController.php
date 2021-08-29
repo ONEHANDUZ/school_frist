@@ -57,6 +57,7 @@ class SchoolController extends Controller
     public function show($school)
     {
         $data = school::find($school);
+        
         return view('admin.show', compact('data'));
         //
     }
