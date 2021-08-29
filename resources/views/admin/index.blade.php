@@ -16,9 +16,9 @@
             <td>{{$dat->id}}</td>
             <td>{{$dat->email}}</td>
             <td>
-                <div class="d-grid gap-2 mx-auto">
+                <div>
                     <a href="{{ route('admin.show', $dat->id) }}">
-                        <button class="btn btn-primary" type="button">More</button>
+                        <button class="btn btn-primary mx-auto" type="button">More</button>
                     </a>
                 </div>
             </td>

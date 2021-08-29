@@ -54,8 +54,10 @@ class SchoolController extends Controller
      * @param  \App\Models\school  $school
      * @return \Illuminate\Http\Response
      */
-    public function show(school $school)
+    public function show($school)
     {
+        $data = school::find($school);
+        return view('admin.show', compact('data'));
         //
     }
 
