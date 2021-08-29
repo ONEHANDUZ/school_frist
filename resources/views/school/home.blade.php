@@ -3,7 +3,7 @@
 @section('title', 'School - HOME')
 
 @section('content')
-<!-- ======= Darslar Section ======= -->
+<!-- ======= Courses Section ======= -->
 <section class="services">
       <div class="container">
 
@@ -49,9 +49,9 @@
         </div>
 
       </div>
-</section><!-- End darslar Section -->
+</section><!-- End courses Section -->
 
-<!-- ======= Maktab haqida malumot Section ======= -->
+<!-- ======= About school Section ======= -->
 <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
       <div class="container">
 
@@ -81,9 +81,9 @@
         </div>
 
       </div>
-</section><!-- End Maktab haqida malumot Section -->
+</section><!-- About school haqida malumot Section -->
 
-<!-- ======= O'qituvchilar haqida malumot Section ======= -->
+<!-- ======= About ticher Section ======= -->
 <section class="features">
       <div class="container">
 
@@ -117,5 +117,5 @@
           </div>
         </div>
       </div>
-</section><!-- End O'qituvchilar haqida malumot Section -->
+</section><!-- About ticher Section -->
 @endsection
