@@ -6,19 +6,22 @@
 
     
     <table class="table table-center" border="1">
-        <Tr>
-            <Th>id</Th>
-            <Th>name</Th>
-            <Th>mail</Th>
-            <Th>text</Th>
-        </Tr>
+        <tr>
+            <th>ID</th>
+            <th>TEXT</th>
+            <th>KEYS</th>
+        </tr>
         @foreach ($data as $dat)
-        
         <tr>
             <td>{{$dat->id}}</td>
-            <td>{{$dat->name}}</td>
             <td>{{$dat->email}}</td>
-            <td>{{$dat->text}}</td>
+            <td>
+                <div class="d-grid gap-2 mx-auto">
+                    <a href="{{ route('admin.show', $dat->id) }}">
+                        <button class="btn btn-primary" type="button">More</button>
+                    </a>
+                </div>
+            </td>
         </tr>
         @endforeach
         

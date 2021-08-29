@@ -3,9 +3,8 @@
 @section('title', 'School - CONTACT US')
 
 @section('content')
-<!-- ====== forma ====== -->
 
-<!-- ======= Features Section ======= -->
+<!-- ======= Contact Section ======= -->
 <section class="features">
       <div class="container">
         <div class="section-title">
@@ -42,5 +41,5 @@
           </div>
         </div>
       </div>
-</section><!-- End Features Section -->
+</section><!-- End Contact Section -->
 @endsection
