@@ -93,19 +93,18 @@
             Informally the role of teacher may be taken on by anyone (e.g. when showing a colleague how to perform a specific task). In some countries, teaching young people of school age may be carried out in an informal setting, such as within the family (homeschooling), rather than in a formal setting such as a school or college. Some other professions may involve a significant amount of teaching (e.g. youth worker, pastor).
           </p>
         </div>
-
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
             <img src="{{asset('assets/img/top-ticherno1.jpg')}}" class="img-fluid" alt="">
-          </div>
+            </div>
           <div class="col-md-7 pt-4">
-            <h3>Peter Tabichi</h3>
+              <h3>Peter Tabichi</h3>
             <p class="fst-italic">
               Peter Mokaya Tabichi, OFM (born 1982) is a Kenyan science teacher and Franciscan friar at Keriko Mixed Day Secondary School in Pwani, Nakuru County. He is the winner of the 2019 Global Teacher Prize. Tabichi was cited as one of the Top 100 most influential Africans by New African magazine in 2019.[1]
             </p>
           </div>
         </div>
-
+        
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
             <img src="{{asset('assets/img/top-ticher-2.jpg')}}" class="img-fluid" alt="">
